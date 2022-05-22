@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports T-shirt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+ <!-- header section starts here -->
+ <header>
+    <div class="container">
+     <nav class="navbar navbar-expand-lg">
+         <div class="container-fluid">    
+           <a class="navbar-brand" href="#">
+             <img src="logo1.png" alt="">
+           </a>
+           <button class="navbar-toggler nav-tog" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="head-bar" ><i class="fas fa-bars"></i></span>
+           </button>
+ 
+           <div class="collapse navbar-collapse" id="navbarNav">
+ 
+             <ul class="navbar-nav">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Shop</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Blog</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">About</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Contact Us</a>
+               </li>
+               <li class="nav-item">
+                 <form action="">
+                     
+                     <i class="fas fa-search search-1"></i>
+                     <input type="search">
+                 </form>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </nav>
+    </div>
+  </header>  
+  <!-- header section ends here -->
+<!-- main section starts here -->
+<main>
+<section class="product-1 container py-5">
+    <div class="row">
+        <div class="col-lg-5 product-img-1">
+            <img src="shop/1.jpg" id="pr-img" class="w-100 img-fluid" style="height:540px" alt="">
+            <div class="row dress-icon">
+                <div class="col-lg-3">
+                 <button onclick="blue()"><img src="shop/1.jpg" class="img-fluid w-85 blue1" alt=""></button>
+                </div>
+               <div class="col-lg-3">
+                <button onclick="white()"><img src="shop/24.jpg" class="img-fluid w-85 white1" alt=""></button>
+               </div>
+               <div class="col-lg-3">
+                <button onclick="red()"><img src="shop/25.jpg" class="img-fluid w-85 white2" alt=""></button>
+               </div>
+               <div class="col-lg-3">
+                <button onclick="ash()"><img src="shop/26.jpg" class="img-fluid w-85 white3" alt=""></button>
+               </div>
+            </div>
+        </div>
+        <div class="col-lg-7 product-1">
+            <p class="text-muted">Home/T-shirt</p>
+            <h5>Men's Fashion T Shirt</h5>
+            <h4 class="py-3">$139.00</h4>
+            <form action="" class="py-2">
+                <select name="product" id="product" >
+                    <option value="Select" selected>Select</option>
+                    <option value="Xl">Xl</option>
+                    <option value="XXl">XXl</option>
+                    <option value="M">M</option>
+                    <option value="Xl">L</option>
+                </select>
+            </form>
+            <button id="my_btn">1</button>
+            <button class="text-uppercase add-to-cart">Add to cart</button>
+            <div class="product-details-2 py-5">
+                <h5>Product Details</h5>
+                <p class="py-3">The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz per sq.yd.fabric constructed frim 100% cotton,this classic fit  preshrunk jersey knit provides unmathched comfort with each wear.Featuring a taped neck and shoulder,and a seamless double-needle collar,and available in aranfer of colors,it offers it all in the ultimate head-turning package.
+                    and also you are going to get the xl to xxl and from 12pcs to 120pcs
+                    The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz per sq.yd.fabric constructed frim 100% cotton,this classic fit  preshrunk jersey knit provides unmathched comfort with each wear.Featuring a taped neck and shoulder,and a seamless double-needle collar,and available in aranfer of colors,it offers it all in the ultimate head-turning package.
+                    and also you are going to get the xl to xxl and from 12pcs to 120pcs
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="featured-section">
+    <h4>Related Products</h4><hr class="featured-hr">
+    <p class="text-muted">Here you can check out our new products with fair price on rymo</p>
+   <div class="row">
+     <div class="col-lg-3 products-1">
+       <img class="img-fluid border" src="featured/1.jpg" alt="">
+       <div class="featured-details">
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <p  class="pp1">Sport Boots</p>
+        <p class="pp2">$92.00</p>
+       </div>
+       <button class="buy-btn">Buy Now</button>
+     </div>
+     <div class="col-lg-3 products-1">
+       <img src="featured/2.jpg" class="img-fluid border" alt="">
+       <div class="featured-details">
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <p  class="pp1">Sport Boots</p>
+        <p class="pp2">$92.00</p>
+       </div>
+       <button class="buy-btn">Buy Now</button>
+     </div>
+     <div class="col-lg-3 products-1">
+       <img src="featured/3.jpg" class="img-fluid border" alt="">
+       <div class="featured-details">
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <p  class="pp1">Sport Boots</p>
+        <p class="pp2">$92.00</p>
+       </div>
+       <button class="buy-btn">Buy Now</button>
+     </div>
+     <div class="col-lg-3 products-1">
+       <img src="featured/4.jpg"  class="img-fluid border"alt="">
+       <div class="featured-details">
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <p  class="pp1">Sport Boots</p>
+        <p class="pp2">$92.00</p>
+       </div>
+       <button class="buy-btn">Buy Now</button>
+     </div>
+   </div>
+  </section>
+</main>
+<!-- main section ends here -->
+<!-- footer section starts here -->
+<footer>
+    <div class="row">
+        <div class="col-lg-3 foot-list1">
+          <img src="logo2.png" alt="">
+          <p class="mt-4 text-muted">Fringila urna porttitar rhorus dolar<br>purus luctus venenatis lectus magna<br>fringilla diam maecenas ultricies mi<br>aget mauris.</p>
+        </div>
+        <div class="col-lg-3 foot_list2">
+          <h5>Featured</h5>
+            <li class="text-muted">MEN</li>
+            <li class="text-muted">WOMEN</li>
+            <li class="text-muted">BOYS</li>
+            <li class="text-muted">GIRLS</li>
+            <li class="text-muted">NEW ARRIVALS</li>
+            <li class="text-muted">SHOES</li>
+            <li class="text-muted">CLOTHES</li>
+        </div>
+        <div class="col-lg-3">
+          <h5>Contact Us</h5>
+          <address>
+            <h6>ADDRESS</h6>
+           <span class="text-muted"> 123 STREET NAME,CITY,US</span>
+            <h6>PHONE</h6>
+           <span class="text-muted">(123) 456-7890</span>
+            <h6>EMAIL</h6>
+            <span class="text-muted">MAIL@EXAMPLE.COM</span>
+          </address>
+        </div>
+        <div class="col-lg-3">
+          <h5>Instagram</h5>
+          <div class="insta-div">
+            <img class="img-fluid w-25" src="insta/1.jpg" alt="">
+            <img class="img-fluid w-25" src="insta/1.jpg" alt="">
+            <img class="img-fluid w-25" src="insta/1.jpg" alt="">
+            <img class="img-fluid w-25" src="insta/1.jpg" alt="">
+            <img class="img-fluid w-25" src="insta/1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- first row with contents ends here -->
+      <!-- second row with contents starts here -->
+      <div class="row py-5">
+        <div class="col-lg-4 py-5">
+          <img src="payment.png" alt="">
+        </div>
+        <div class="col-lg-4 py-5">
+          <p class="text-muted">rymo eCommerce &copy; 2021.All Rights Reserved</p>
+        </div>
+        <div class="col-lg-4 py-5 foot-div-2">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+</footer>
+<!-- footer section ends here -->
+<script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

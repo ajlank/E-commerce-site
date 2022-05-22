@@ -1,0 +1,29 @@
+*{
+    list-style-type:none;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    outline:0;
+}
+body{
+    scroll-behavior:smooth;
+    
+}
+html{
+    width:100%;
+}
+.blog-section{
+    padding:5% 7%;
+}
+.blog-section .blog-pic{
+    overflow:hidden;
+    cursor:pointer;
+}
+.blog-pic img{
+    transition:.4s ease;
+    
+}
+.blog-pic:hover img{
+    transform:scale(0.9) rotate(-9deg);
+    
+}

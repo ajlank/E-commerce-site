@@ -1,0 +1,138 @@
+*{
+    list-style-type:none;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    outline:0;
+}
+body{
+    scroll-behavior:smooth;
+    
+}
+html{
+    width:100%;
+}
+/* header section starts here */
+header{
+    align-items:center;
+    background-color:#fff;
+    color:white;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index:10;
+    min-width:5vh;
+    padding:0 3%;
+    box-shadow:0.1rem 0.1rem 0.1rem #c4c4c4,-0.1rem 0rem 0.1rem #c4c4c4;
+   
+}
+.nav-item .nav-link{
+    color:black;
+    font-weight:470;
+    margin-left:0.8rem;
+ }
+    .nav-item,.nav-link:hover{
+        color:#cb920e;
+    }
+    .navbar-nav{
+        margin-left:auto;
+    }
+    
+ @media screen and (max-width:600px){
+.navbar-nav li{
+        margin-left:7.6rem;
+       margin-top:1rem;
+      
+     }
+ .navbar-nav li a{
+         font-size:1.2rem;
+      }
+ input[type=search]{
+          visibility:hidden;
+     }
+ .search-1{
+          visibility:hidden;
+     }
+
+ }
+input[type=search]{
+        margin-top:0.4rem;
+        border:2px solid;
+        text-indent:5px;
+        transition:width 0.4s ease-in-out;   
+        width:23px;   
+        border-radius:5px;
+        margin-left:0.3rem;
+}
+input[type=search]:focus{
+    width:60%;
+}
+.search-1{
+        font-size:19px;
+        margin-left:1rem;
+}
+/* header section ends here */
+.shop-products{
+    padding:15% 10%;
+}
+.shop-products h3{
+    font-weight:bold;
+}
+.shop-products hr{
+    width:34px;
+    border:2px solid coral;
+}
+.shop-product-details{
+    text-align:center;
+}
+.shop-product-details i{
+    color:orange;
+}
+.shop-product-details .ppp1{
+    font-weight:560;
+}
+.shop-product-details .ppp2{
+    font-weight:bold;
+}
+.shop-details:hover img{
+    cursor:pointer;
+    opacity:0.8;
+}
+.shop-details .shop-pr-btn{
+    border:none;
+    padding:7px;
+    background-color:coral;
+    color:white;
+    transform:translateY(20px);
+    opacity:0;
+    transition:.4s all;
+    
+}
+.shop-details:hover .shop-pr-btn{
+    opacity:1;
+    transform:translateY(0);
+    cursor:pointer;
+}
+/* footer section starts here */
+footer{
+    color:white;
+    padding:4% 10%;
+    background-color:black;
+}
+@media screen and (max-width:600px) {
+   footer{
+    text-align:center;
+    
+   }
+}
+.foot-div-2 i{
+    margin-left:12px;
+    font-size:3rem;
+}
+
+/* footer section ends here */
+@media screen and (max-width:600px){
+    footer .row .col-lg-3{
+        margin-top:2rem;
+    }
+}

@@ -1,0 +1,415 @@
+*{
+    list-style-type:none;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    outline:0;
+}
+body{
+    scroll-behavior:smooth;
+    
+}
+html{
+    width:100%;
+}
+/* header section starts here */
+header{
+    align-items:center;
+    background-color:#fff;
+    color:white;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index:10;
+    min-width:5vh;
+    padding:0 3%;
+    box-shadow:0.1rem 0.1rem 0.1rem #c4c4c4,-0.1rem 0rem 0.1rem #c4c4c4;
+  
+}
+body{
+    max-width:100%;
+    background-color:#eee;
+   
+}
+
+.nav-item,.nav-link{
+color:black;
+font-weight:470;
+margin-left:0.8rem;
+}
+.nav-item,.nav-link:hover{
+    color:#cb920e;
+}
+@media screen and (max-width:600px){
+    .navbar-nav li{
+       margin-left:7.6rem;
+      margin-top:1rem;
+     
+    }
+    .navbar-nav li a{
+        font-size:1.2rem;
+     }
+     input[type=search]{
+         visibility:hidden;
+     }
+     .search-1{
+         visibility:hidden;
+     }
+}
+input[type=search]{
+    margin-top:0.4rem;
+    border:2px solid;
+    text-indent:5px;
+    transition:width 0.4s ease-in-out;   
+    width:23px;   
+    border-radius:5px;
+    margin-left:0.3rem;
+}
+input[type=search]:focus{
+    width:60%;
+}
+.search-1{
+    font-size:19px;
+    margin-left:1rem;
+}
+/* header section ends here */
+
+/* main section starts here */
+.sp-1{
+    color:#e29e22;
+   
+}
+
+.home-bar h1{
+    font-weight:760;
+}
+#home_btn{
+    border:none;
+    background-color:black;
+    color:white;
+    padding:11px;
+    font-size:0.9rem;
+    transition:transform .4s;
+    
+}
+#home_btn:hover{
+   transform:scale(1.1);
+}
+.home-section{
+    background-image:url('back.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    height:68vh;
+}
+.home-bar{
+    padding:7% 15%;
+}
+
+/* brand section starts here */
+.brand{
+    padding:4% 7%;
+    background-color:#fff;
+}
+@media screen and (max-width:600px){
+
+    .brand img{
+       margin-left:5rem;
+       margin-top:3rem;
+       height:6rem;
+    }
+}
+@media screen and (min-width:992px){
+    .navbar-nav{
+        margin-left:32rem;
+    }
+}
+
+/* brand section ends here */
+/* products section starts here */
+.one{
+    position:relative;
+    
+}
+.one img{
+    height:100%;
+    width:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover
+   
+}
+.details{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:98%;
+    transition:.4s ease-in-out;
+  
+}
+.one,.details{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.sp-btn{
+    transform:translateY(70px);
+    border:none;
+    border-bottom:2px solid;
+    background:none;
+    padding:5px;
+   
+}
+.details:hover{
+    background-color:rgba(245, 178, 178,0.4);
+    
+}
+
+.products{
+    padding:4% 10%;
+    background-color:#fff;
+}
+.sp-btn:hover{
+    border:1px solid;
+}
+
+/* products section ends here */
+/* featured section starts here */
+.featured-section{
+    text-align:center;
+    padding:4% 10%;
+}
+
+.featured-hr{
+    text-align:center;
+    width:120px;
+    margin:auto;
+    border:2px solid coral;
+}
+.featured-details i{
+    color:orange;
+}
+.featured-details .pp1{
+    font-weight:510;
+}
+.featured-details .pp2{
+    font-weight:bold;
+    
+}
+.products-1 .buy-btn{
+    border:none;
+    background-color:coral;
+    color:white;
+    padding:7px;
+    transform:translateY(30px);
+    opacity:0;
+    transition:.4s all;
+}
+
+.products-1:hover .buy-btn{
+    opacity:1;
+    transform:translateY(0);
+    
+}
+/* featured section ends here */
+/* collection section starts here */
+.collection{
+    background-image:url('banner/2.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    height:45vh;
+    padding:4% 10%;
+    width:100%;
+}
+/* collection section ends here */
+.col-lg-6 h6{
+    color:#fff;
+    
+}
+.col-lg-6 h1{
+    color:white;
+}
+#cl-btn{
+    border:none;
+    background-color:coral;
+    padding:7px;
+    color:white;
+    font-size:0.9rem;
+    font-weight:566;
+}
+
+
+/* dress section starts here */ 
+.dress-section{
+    text-align:center;
+    padding:4% 10%;
+    cursor:pointer;
+}
+.dress-section h5{
+    font-weight:550;
+
+}
+.dress-section .dress-hr{
+    width:120px;
+    border:2px solid coral;
+    margin:auto;
+}
+.dress-details{
+    margin-top:1rem;
+}
+.dress-details i{
+    color:orange;
+}
+.dress-details .pp3{
+    font-weight:510;
+}
+.dress-details .pp4{
+    font-weight:bold;
+}
+.buy1-btn{
+    border:none;
+    background-color:coral;
+    color:white;
+    padding:7px;
+    transform:translateY(27px);
+    opacity:0;
+    transition:.3s all;
+}
+.dress-sec:hover .buy1-btn{
+    opacity:1;
+    transform:translateY(0);
+    cursor:pointer;
+}
+/* dress section ends here */
+/* watch section starts here */
+.watch{
+    text-align:center
+}
+.watch h5{
+    font-weight:550;
+}
+.watch-hr{
+    width:170px;
+    border:2px solid coral;
+    margin:auto;
+}
+
+.watch{
+    padding:4% 10%;
+    background-color:#eee;
+}
+.btn-11{
+    border:none;
+    border:none;
+    background-color:#00A4C5;
+    color:white;
+    padding:2px;
+    border-radius:5px;
+    margin-right:8px;
+}
+.btn-12{
+   
+    border:none;
+    background-color:#00A4C5;
+    color:white;
+    padding:2px 7px;
+    border-radius:5px;
+}
+.btn-11:hover{
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+    
+}
+.btn-12:hover{
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+    
+}
+.watch1{
+    cursor:pointer;
+}
+.watch1 .p-pp4{
+    text-decoration:line-through;
+}
+.watch1 .buy2-btn{
+    border:none;
+    background-color:coral;
+    color:white;
+    padding:7px;
+    transform:translateY(27px);
+    opacity:0;
+    transition:.3s all;
+}
+.watch1:hover .buy2-btn{
+    opacity:1;
+    transform:translateY(0);
+   
+}
+
+/* watch section ends here */
+
+/* running shoes section starts here */
+.running-shoes{
+    text-align:center;
+    padding:4% 10%;
+}
+.running-shoes .row{
+    margin-top:3rem;
+}
+.running-shoes h5{
+    font-weight:550;
+}
+.shoe-dec img{
+    transition:.4s all;
+}
+.shoe-dec img:hover{
+   cursor: pointer;
+   opacity:0.7;
+}
+
+.shoe-dec .buy2-btn{
+    border:none;
+    background-color:coral;
+    color:white;
+    padding:7px;
+    transform:translateY(27px);
+    opacity:0;
+    transition:.3s all;
+}
+.shoe-dec:hover .buy2-btn{
+    opacity:1;
+    transform:translateY(0);
+   
+}
+/* running shoes section ends here */
+/* footer section starts here */
+footer{
+    color:white;
+    padding:4% 10%;
+    background-color:black;
+}
+@media screen and (max-width:600px) {
+   footer{
+    text-align:center;
+    
+   }
+}
+.foot-div-2 i{
+    margin-left:12px;
+    font-size:3rem;
+}
+.Ajlan{
+    text-decoration:none;
+    font-weight:555;
+    color:white;
+}
+@media screen and (max-width:600px){
+    footer .row .col-lg-3{
+        margin-top:2rem;
+    }
+}
+/* footer section ends here */
